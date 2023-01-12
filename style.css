@@ -66,6 +66,10 @@ main {
     overflow: hidden;
 }
 /* global styling */
+.sr-only {
+    display: none;
+}
+
 .card1, .card2, .card3 {
     width: 20rem;
     padding: 3rem;
