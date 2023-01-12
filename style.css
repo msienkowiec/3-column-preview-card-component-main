@@ -100,7 +100,7 @@ p {
     background-color: var(--clr-bright-orange);
 }
 
-.card1 > button {
+.card1 > .learn_more_btn {
     color: var(--clr-bright-orange);
 }
 /* card 2 */
@@ -108,7 +108,7 @@ p {
     background-color: var(--clr-dark-cyan);
 }
 
-.card2 > button {
+.card2 > .learn_more_btn {
     color: var(--clr-dark-cyan);
 }
 /* card 3 */
@@ -116,11 +116,11 @@ p {
     background-color: var(--clr-very-dark-cyan);
 }
 
-.card3 > button {
+.card3 > .learn_more_btn {
     color: var(--clr-very-dark-cyan);
 }
 
-button {
+.learn_more_btn {
     font-family: var(--ff-secondary);
     font-weight: var(--fw-regular);
     font-size: var(--fs-base);
@@ -129,9 +129,10 @@ button {
     border: 2px solid var(--clr-very-light-gray);
     border-radius: 3rem;
     transition: 0.2s ease;
+    text-decoration: none;
 }
 
-button:is(:hover, :focus) {
+.learn_more_btn:is(:hover, :focus) {
     color: var(--clr-very-light-gray);
     cursor: pointer;
     background-color: transparent;
